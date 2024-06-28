@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    
+/* primary rgba(226, 29, 72, 1) */
+
+.btn-shadow {
+    box-shadow: 0 10px 20px rgba(226, 29, 72, 0.5), 0 6px 6px rgba(226, 29, 72, 0.5), 0 0 100px -10px rgba(226, 29, 72, 1);
+}
+
+.btn-shadow:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 18px rgba(226, 29, 72, 0.5), 0 10px 10px rgba(226, 29, 72, 0.5), 0 0 120px -10px rgba(226, 29, 72, 1);
+}
+
