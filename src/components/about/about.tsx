@@ -20,20 +20,20 @@ export default function About() {
         </div>
         <div className="max-w-[60ch] text-base-100">
           <p className="mb-4">
-            Hi, I'm Kai Verschuren, a 16-year-old{" "}
+            Hi, I&apos;m Kai Verschuren, a 16-year-old{" "}
             <strong className="text-secondary">
               software development student
             </strong>{" "}
             at ROC Ter AA in the Netherlands.
           </p>
           <p className="mb-4">
-            I'm in my first year, aiming to become a{" "}
+            I&apos;m in my first year, aiming to become a{" "}
             <strong className="text-secondary">
               frontend/fullstack developer.
             </strong>
           </p>
           <p className="text-center">
-            I'm passionate about technology and eager to start my career in
+            I&apos;m passionate about technology and eager to start my career in
             software development.
           </p>
         </div>

@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="relative ">
             <h2 className="text-2xl font-extrabold text-base-100"
             >
-              Hi, i'm Kai
+              Hi, i&apos;m Kai
             </h2>
             <h1 className="text-2xl font-black uppercase z-10 lg:text-4xl">
               <div className="relative w-fit mx-auto lg:mx-0">
