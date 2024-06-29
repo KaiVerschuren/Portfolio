@@ -6,7 +6,7 @@ export default function CoreSkills() {
       <div className="divider divider-primary"></div>
       </div>
       <div>
-        <ul className="text-center">
+        <ul className="text-center text-base-100">
             <li>Creativity</li>
             <li>Problem solving</li>
             <li>Troubleshooting</li>

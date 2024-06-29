@@ -11,7 +11,7 @@ export default function Hero() {
           src={Placeholder}
           alt="Placeholder"
           className="max-w-48 xs:max-w-64 lg:max-w-xs  rounded-lg shadow-xl"
-          
+          loading="lazy"
         />
         <div className="text-center lg:text-left">
           <div className="relative ">

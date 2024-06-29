@@ -49,7 +49,7 @@ export default function Navbar() {
               {storedTheme == "dark" && <SunIcon className="size-6" />}
               {storedTheme == "light" && <MoonIcon className="size-6" />}
             </button>
-            <Link href="/resume" className="btn btn-outline btn-primary border-2 z-30">
+            <Link href="/resume" className="btn btn-sm md:btn-md btn-outline btn-primary border-2 z-30">
               Resume
             </Link>
           </div>
