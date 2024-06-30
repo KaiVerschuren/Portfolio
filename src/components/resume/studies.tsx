@@ -30,9 +30,8 @@ export default function Studies() {
                         Time="2019 - 2023"
                         Dropdown1="Base Subjects"
                         Dropdown2="Practical Subjects"
-                        // Dutch English Physics Mathematics Physical Education
                         Dropdown1Content={["Dutch", "English", "Physics", "Mathematics", "Physical Education"]}
-                        Dropdown2Content={["Metalworking", "Electrical Engineering", "EPlumbing", "3D drawing in Solidworks"]}
+                        Dropdown2Content={["Metalworking", "Electrical Engineering", "Plumbing", "3D drawing in Solidworks"]}
                     />
                 </div>
             </div>

@@ -4,7 +4,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 import { useContext } from "react";
 
 import Image from 'next/image';
-import Logo from "@/assets/img/logos/KAIVER.png";
+import Logo from "@/assets/img/logos/KAIVER.png"
 
 import { SunIcon } from "@heroicons/react/24/solid";
 import { MoonIcon } from "@heroicons/react/24/solid";

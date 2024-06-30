@@ -1,8 +1,21 @@
+"use client";
+
 import React from "react";
 
+import { useRef } from "react";
+
+import { useInView } from "framer-motion";
+
 export default function Card(props: any) {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
     return (
-        <div className="flex-1">
+        <div className="flex-1" ref={ref} 
+        style={{
+            transform: isInView ? "none" : "translateY(75px)",
+            opacity: isInView ? 1 : 0,
+            transition: "transform 1s, scale 0.3s",
+        }}>
             <div className="flex flex-wrap justify-between items-center gap-4">
                 {props.Title && (
                     <h3 className="text-xl lg:text-xl font-semibold indicator flex-1">
@@ -51,7 +64,7 @@ export default function Card(props: any) {
                             {props.Dropdown2Content && (
                                 <ul className="dropdown-content menu text-base-100 pl-8">
                                     {props.Dropdown2Content.map((content: any, index: any) => (
-                                        <li key={index} className="whitespace-nowrap">
+                                        <li key={index} className="whitespace-nowrap text-end">
                                             {content}
                                         </li>
                                     ))}
