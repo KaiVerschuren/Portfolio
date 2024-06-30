@@ -16,7 +16,6 @@ export default function Hero() {
         <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-32 items-center">
           <div>
             <h1 className="text-2xl lg:text-4xl font-black">Kai Verschuren</h1>
-            {/* <div className="divider divider-primary text-xl">Contact</div> */}
             <ul className="text-base-100 text-base lg:text-lg">
               <li className="flex items-center gap-4">
                 <PhoneIcon className="size-4 md:size-6 text-base-content"></PhoneIcon><Link className="hover:underline" href={"tel:+31 06 17003624"}>+31 06 17003624</Link>

@@ -22,8 +22,8 @@ export default function Work() {
         <Card
           Title="Coin Cove"
           Content="Coin Cove is a crypto site that my team and I made for our final project in year 1."
-          Badge1="Html and css"
-          Badge2="PHP"
+          Badge1="Html and Css"
+          Badge2="Php"
           Badge3="MySql"
           Image={Coincove}
         />

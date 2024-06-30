@@ -2,6 +2,7 @@ import Hero from "./hero";
 import Profile from "./profile";
 import Core from "./coreskills";
 import Studies from "./studies";
+import Work from "./work";
 
 export default function Resume() {
   return (
@@ -17,6 +18,9 @@ export default function Resume() {
       </section>
       <section className="mt-16">
         <Studies />
+      </section>
+      <section className="mt-16">
+        <Work />
       </section>
     </div>
   );

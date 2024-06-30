@@ -29,7 +29,7 @@ export default function Studies() {
                         School="Metameer, Stevensbeek"
                         Time="2019 - 2023"
                         Dropdown1="Base Subjects"
-                        Dropdown2="practical subjects"
+                        Dropdown2="Practical Subjects"
                         // Dutch English Physics Mathematics Physical Education
                         Dropdown1Content={["Dutch", "English", "Physics", "Mathematics", "Physical Education"]}
                         Dropdown2Content={["Metalworking", "Electrical Engineering", "EPlumbing", "3D drawing in Solidworks"]}
